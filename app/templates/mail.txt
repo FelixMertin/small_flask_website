@@ -1,0 +1,2 @@
+The mail comes from: {{mail}}
+The inquiry: {{ text }}

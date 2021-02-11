@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+    <h1>Unfortunately, the inquiry could not be sent!</h1>
+      <p>To help you with this inconvenience, you will find the text of your inquiry below:</p>
+      <p><i>{{inquiry_text}}</i></p>
+      <p>Please copy this text and write me manually at: <a class="extra-link" href="mailto: your@gmail.com">your@gmail.com</a></p>
+    </div>
+  </div>
+
+{% endblock %}
